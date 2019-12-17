@@ -4,6 +4,7 @@ const Query = {
   // Prisma bindings way
   items: forwardTo('db'),
   item: forwardTo('db'),
+  itemsConnection: forwardTo('db'),
   // Manual Way
   // async items(parent, args, ctx, info) {
   //   const items = await ctx.db.query.items();
